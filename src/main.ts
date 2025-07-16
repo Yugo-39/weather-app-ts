@@ -1,7 +1,6 @@
 import './style.css';
 
-// 🔑 APIキー
-const API_KEY = '4bd8edff2eff460ab6034559251606';
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 // 型定義
 interface ForecastHour {
